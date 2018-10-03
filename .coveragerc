@@ -1,0 +1,11 @@
+[report]
+show_missing = True
+exclude_lines=
+    pragma: no cover
+    pragma: no py${PYTEST_PYMAJVER} cover
+omit =
+   *__init__.py
+[paths]
+source =
+    gcalcli/
+    .tox/py*/lib/python*/site-packages/gcalcli/
